@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+#hero {
+    background: url('images/shoe-1.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .container {
+    max-width: 600px;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#about {
+    background: #fff;
+}
+
+#portfolio {
+    background: #f4f4f4;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 1rem;
+    flex-basis: 30%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    border-bottom: 3px solid #333;
+}
+
+.project h3 {
+    margin: 0.5rem;
+}
+
+.project p {
+    padding: 0 0.5rem 1rem 0.5rem;
+}
+
+#contact {
+    background: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
